@@ -7,9 +7,11 @@ A simple client-side JavaScript implementation and visualization of SimRank scor
 ### Run instructions
 - Install Node.js https://nodejs.org/en/
 - copy the data you want to compute in `data.txt`
+- run the server 
 ```
 node server.js
 ```
+- go to http://localhost:3000/
 
 #### Note
 The application works currently on bipartite graphs only.
