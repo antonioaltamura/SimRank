@@ -1,7 +1,7 @@
 # SimRank
 
 A simple client-side JavaScript implementation of SimRank score.
-
+![alt text][s]
 
 ### Run instructions
 - Install Node.js https://nodejs.org/en/
@@ -19,3 +19,6 @@ Since the application comes with a visual representation of the graph and the sc
 ##### References
 Jeh, Glen, and Jennifer Widom. "SimRank: a measure of structural-context similarity." _Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining_. ACM, 2002.
 http://ilpubs.stanford.edu:8090/508/
+
+
+[s]: https://raw.githubusercontent.com/antonioaltamura/SimRank/master/screenshot.png "Screenshot"

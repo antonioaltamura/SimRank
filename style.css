@@ -1,0 +1,45 @@
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+#ctrl {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background: #eaeaea;
+
+}
+#graph-container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+p {
+    padding: 6px 5px 2px 5px;
+    display: inline-block;
+    margin: 0;
+}
+p[data-action] {
+    background-color: #7ea0fb;
+    color: white;
+    cursor: pointer;
+}
+p[data-action]:hover {
+    background-color: #3d8cfb;
+}
+input[type=number] {
+    width: 50px;
+}
+#numIter {
+    display: none;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABHUlEQVRIie3WPW7CMBjG8UcVM+1QBKztIXqPqvQcHbkH5QgcgBFVRVVF+ZRghyuw0vXPAEgV2K9DYqMOvJKXKMkvfuLXiXSt/1SAgBrQBZbA2/5YcMSAX4FfdtUHKpeAXzitGVBPDfccMMAYuM0D32S0+57jT5K+JFXOm0rGAkrAu2fWAFNf7EXhw2gZ+NAVeyw4hC84Wu0xYQFtA5+x6/kksLDf+RC4SwWHYh8Bj6lgAU0D7/jumbWPcz9zsavzRf0DPKSArZU9INHistApUD2cGxO24p2TaAMJ9W75OJ2icCkQ74Q/u1VM2OrVOXDvQmPAvh8BZ7wx4WcH6v0Gx4QFNIDNHv204s0Cn7Nlfkv6kLSS1JW0Ljada12otqEbO6BQU4gQAAAAAElFTkSuQmCC);
+}
