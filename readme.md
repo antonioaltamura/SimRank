@@ -1,7 +1,8 @@
 # SimRank
 
-A simple client-side JavaScript implementation of SimRank score.
-![alt text][s]
+A simple client-side JavaScript implementation and visualization of SimRank score.
+
+![screenshot][s]
 
 ### Run instructions
 - Install Node.js https://nodejs.org/en/
