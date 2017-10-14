@@ -2,7 +2,7 @@
 
 A simple client-side JavaScript implementation and visualization of SimRank score.
 
-![screenshot][s]
+<kbd><img src="https://raw.githubusercontent.com/antonioaltamura/SimRank/master/screenshot.png" /></kbd>
 
 ### Run instructions
 - Install Node.js https://nodejs.org/en/
