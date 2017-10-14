@@ -2,52 +2,14 @@
 <head>
     <title>SimRank</title>
     <meta charset="utf-8">
-    <style>
-        * {
-            font-family: "Segoe UI", Arial, sans-serif;
-            font-weight: 400;
-        }
-        #ctrl {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            z-index: 10;
-
-        }
-        #graph-container {
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            position: absolute;
-        }
-        p {
-            padding: 10px;
-            display: inline-block;
-            margin: 0;
-        }
-        p[data-action] {
-            background-color: #7ea0fb;
-            color: white;
-            cursor: pointer;
-        }
-        p[data-action]:hover {
-            background-color: #3d8cfb;
-        }
-        input[type=number] {
-            width: 50px;
-        }
-        #numIter {
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div id="container">
     <div id="ctrl">
-        <p data-action="init">init</p>
+        <p data-action="init">init <span class="arrow"></span></p>
         Run <input title="iterations" type="number" id="inputNumIter" min="1" size="3" value="1"/>
-        <p data-action="iteration"> iteration(s) </p>
+        <p data-action="iteration"> iteration(s) <span class="arrow"></span> </p>
         <p id="numIter"> Iteration n. <span></span></p>
     </div>
     <div id="graph-container"></div>
