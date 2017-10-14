@@ -20,6 +20,8 @@ let serve = (fileName, contentType, res) => {
 http.createServer((req, res) => {
 	(req.url === '/sigma.min.js') ?
 		serve('sigma.min.js', 'text/javascript', res) :
+	(req.url === '/simrank.js') ?
+		serve('simrank.js', 'text/javascript', res) :
 	(req.url === '/jquery.min.js') ?
 		serve('jquery.min.js', 'text/javascript', res) :
 	(req.url === '/style.css') ?
